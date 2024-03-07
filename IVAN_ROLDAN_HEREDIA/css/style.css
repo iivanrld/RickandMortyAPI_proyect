@@ -1,0 +1,24 @@
+body {
+    background-color: #b3ffb3; /* light green */
+}
+
+.navbar {
+    background-color: #6cbe45; /* darker green */
+}
+
+.navbar a {
+    color: black;
+}
+
+.card {
+    background-color: #6cbe45; /* darker green */
+}
+
+.card-body {
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}

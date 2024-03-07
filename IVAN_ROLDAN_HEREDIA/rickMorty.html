@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Aqui tenemos los enlaces a boostrap y css -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Ricky & Morty</title>
+</head>
+<body>
+    <!-- tenemos un navegador -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="rickMorty.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://rickandmortyapi.com/api/character/">Personajes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://rickandmortyapi.com/api/episode">Episodios</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!-- Aqui tenemos la informacion en cartas de los personajes mas importantes de la serie -->
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Rick and Morty</h1>
+                <p>Rick y Morty (en inglés: Rick and Morty) es una serie de televisión estadounidense de animación para adultos creada por Justin Roiland y Dan Harmon en 2013 para Adult Swim, también se emitió en Cartoon Network. La serie sigue las desventuras de un científico, Rick Sánchez, y su fácilmente influenciable nieto, Morty, quienes pasan el tiempo entre la vida doméstica y los Viajes espaciales e intergalácticos. Dan Harmon, el cocreador de la serie y Justin Roiland son los encargados de las voces principales de Morty y Rick, la serie también incluye las voces de Chris Parnell, Spencer Grammer y Sarah Chalke.</p>
+                <div class="container-fluid mt-5">
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/rick_sanchez.png" class="card-img-top">
+                                <div class="card-body">
+                                  <p class="card-text">"Rick" Sánchez de la Dimensión C-137 es un viejo científico alcohólico que acostumbra hablar de manera vulgar y entre eructos aparte de hablar de forma bastante inapropiada constantemente, la mayoría de las veces tiene un rastro de saliva e incluso se cree que es licor en la boca. Es padre de Beth Smith y el abuelo materno de Summer y Morty.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/Morty.png" class="card-img-top" alt="30px">
+                                <div class="card-body">
+                                  <p class="card-text">Mortimer "Morty" Smith Jr. es el hijo de Morty Smith. Fue concebido por Morty y un robot sexual Gazorpian llamado Gwendolyn en el episodio "Raising Gazorpazorp". Morty Jr. creció de un bebé a un adulto completo a un ritmo hiper-aumentado, lo que le permitió superar rápidamente a su padre.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="img/summer.png" class="card-img-top">
+                                <div class="card-body">
+                                  <p class="card-text">Summer Smith de la Dimension C-131 es una de los cinco personajes principales. Es miembro de la familia Smith e hija de Jerry Smith y Beth Smith, la hermana mayor de Morty Smith y la madre de Naruto Smith.
+
+                                    Actualmente actúa como la hermana mayor de Morty y la nieta de Rick, A medida que avanzaba la serie, Summer se involucraba con más frecuencia en las aventuras de Rick y Morty. Ella y Morty a menudo se pelean por el afecto de Rick, pero también mantienen un vínculo único que surge de la revelación de que Morty no es su hermano original.</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="img/rick_y_morty.jpg" alt="Rick and Morty" class="img-fluid img-thumbnail">
+            </div>
+        </div>
+    </div>
+    <!-- aqui tenemos el script js -->
+    <script src="rickMorty.js"></script>
+    <!-- y aqui el footer -->
+    <footer>
+        <p>&copy; 2023 Ivan Roldan Heredia</p>
+    </footer>
+</body>
+</html>
